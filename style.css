@@ -1,0 +1,46 @@
+body {
+        
+    /* Below are CSS PROPERTIES
+
+        Should be centred background image - doesn't work
+        
+        background-image: url("https://www.ibb.co/album/6JdmSz");
+        background-position: center;*/
+
+       /* background gradient
+
+       background-image: linear-gradient(red,yellow);
+        height: 1000px; */
+        
+        color: black;
+        background-color: #cccccc;
+        font-size: 20px;  
+        /*font-family
+        ;font-weight: 300;*/
+    }
+
+    .h1 {
+        color: black;
+        /*letter-spacing: 0.2em;*/
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+    .menu {
+        /*font-style:italic;
+        max-width: 1200px;*/
+        border: 1px;
+        color: black;
+        background-color: red;
+       /* min-width: -100px;*/
+        padding: 20px 30px 50px 50px;
+        list-style: none;
+    }
+
+    .main-body-text {
+        color: blue;
+        max-width: 768px;
+        margin-left: 100px;
+        margin-top: 50px;
+        line-height: 1.4em;
+    }
