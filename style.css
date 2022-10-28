@@ -35,7 +35,6 @@ body {
         height: 200;
         /*Install border and Round corners off*/
         border: 5 black;
-        border-radius: 5;
         background-color: purple;
         /* min-width: -100px;*/
         padding: 10 10 50 500;
@@ -53,6 +52,7 @@ body {
         font-size: 16;
         margin: 10 2;
         cursor: crosshair;
+        border-radius: 5;
     }
 
     .button-style:hover {
