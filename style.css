@@ -43,13 +43,13 @@ body {
     .button-style {
         transition-duration: 0.1;
         background-color: red;
-        padding: 15 32;
+        padding: 15 32 20 20;
         text-align: center;
         display: inline-block;
         font-size: 16;
-        margin: 10 2;
+        margin: 10 20 20 20;
         cursor: crosshair;
-    /*Install border and round corners off*/
+    /*Install border and round corners off - BROKEN*/
         border: 5 solid black;
         border-radius: 5;
     }
@@ -58,11 +58,12 @@ body {
         background: white;
     }
 
+    /*Customising links*/
     a {
         color: black;
     }
 
-    /* CSS Property for visited link formatting
+    /* CSS Property for visited link formatting - BROKEN
     a:visited {
         colour: purple;
     }*/
