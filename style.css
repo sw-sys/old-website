@@ -13,7 +13,7 @@ body {
         height: 1000px; */
         
         color: black;
-        background-color: yellow;
+        background-color: green;
         font-size: 20px;  
         /*font-family
         ;font-weight: 300;*/
@@ -67,8 +67,8 @@ body {
     /* CSS Property for visited link formatting
     a:visited {
         colour: purple;
-    }
-    */
+    }*/
+
     .main-body-text {
         color: blue;
         max-width: 768px;
