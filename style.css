@@ -50,8 +50,8 @@ body {
         font-size: 16;
         margin: 10 2;
         cursor: crosshair;
-    /*Install border and Round corners off*/
-        border: 5 black;
+    /*Install border and round corners off*/
+        border: 5 solid black;
         border-radius: 5;
     }
 
