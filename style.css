@@ -13,7 +13,7 @@ body {
         height: 1000px; */
         
         color: black;
-        background-color: #cccccc;
+        background-color: yellow;
         font-size: 20px;  
         /*font-family
         ;font-weight: 300;*/
@@ -24,19 +24,51 @@ body {
         /*letter-spacing: 0.2em;*/
         margin-left: 50px;
         margin-top: 10px;
+        /*Gradient property
+        background-image: linear-gradient(red, lightslategray);*/
     }
 
     .menu {
         /*font-style:italic;
         max-width: 1200px;*/
-        border: 1px;
+        border: 0px;
         color: black;
-        background-color: red;
-       /* min-width: -100px;*/
-        padding: 20px 30px 50px 50px;
+        height: 200px;
+        /*Install border and Round corners off*/
+        border: 5px black;
+        border-radius: 5px;
+        background-color: purple;
+        /* min-width: -100px;*/
+        padding: 10px 10px 50px 500px;
         list-style: none;
+        /*box-shadow: 5px 10px 20px lightslategray;*/
     }
 
+    .button-style {
+        transition-duration: 0.1s;
+        border:none;
+        background-color: red;
+        padding 15px 32px;
+        text-align: center;
+        display:inline-block;
+        font-size: 16px;
+        margin: 10px 2px;
+        cursor: crosshair;
+    }
+
+    .button-style:hover {
+        background: white;
+    }
+
+    a {
+        color: black;
+    }
+
+    /* CSS Property for visited link formatting
+    a:visited {
+        colour: purple;
+    }
+    */
     .main-body-text {
         color: blue;
         max-width: 768px;
