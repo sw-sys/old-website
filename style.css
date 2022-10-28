@@ -14,7 +14,7 @@ body {
         
         color: black;
         background-color: green;
-        font-size: 20px;  
+        font-size: 20 px;  
         /*font-family
         ;font-weight: 300;*/
     }
@@ -22,8 +22,8 @@ body {
     .h1 {
         color: black;
         /*letter-spacing: 0.2em;*/
-        margin-left: 50px;
-        margin-top: 10px;
+        margin-left: 50 px;
+        margin-top: 10 px;
         /*Gradient property
         background-image: linear-gradient(red, lightslategray);*/
     }
@@ -31,28 +31,28 @@ body {
     .menu {
         /*font-style:italic;
         max-width: 1200px;*/
-        border: 0px;
+        border: 0 px;
         color: black;
-        height: 200px;
+        height: 200 px;
         /*Install border and Round corners off*/
-        border: 5px black;
-        border-radius: 5px;
+        border: 5 px black;
+        border-radius: 5 px;
         background-color: purple;
         /* min-width: -100px;*/
-        padding: 10px 10px 50px 500px;
+        padding: 10 px 10 px 50 px 500 px;
         list-style: none;
         /*box-shadow: 5px 10px 20px lightslategray;*/
     }
 
     .button-style {
-        transition-duration: 0.1s;
+        transition-duration: 0.1sec;
         border:none;
         background-color: red;
-        padding 15px 32px;
+        padding 15 px 32 px;
         text-align: center;
         display:inline-block;
-        font-size: 16px;
-        margin: 10px 2px;
+        font-size: 16 px;
+        margin: 10 px 2 px;
         cursor: crosshair;
     }
 
@@ -71,8 +71,8 @@ body {
 
     .main-body-text {
         color: blue;
-        max-width: 768px;
-        margin-left: 100px;
-        margin-top: 50px;
-        line-height: 1.4em;
+        max-width: 768 px;
+        margin-left: 100 px;
+        margin-top: 50 px;
+        line-height: 1.4 em;
     }
