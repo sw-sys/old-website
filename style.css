@@ -42,11 +42,10 @@ body {
 
     .button-style {
         transition-duration: 0.1;
-        border:none;
         background-color: red;
         padding: 15 32;
         text-align: center;
-        display:inline-block;
+        display: inline-block;
         font-size: 16;
         margin: 10 2;
         cursor: crosshair;
