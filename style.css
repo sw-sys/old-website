@@ -11,16 +11,18 @@ body {
 
        background-image: linear-gradient(red,yellow);
         height: 1000px; */
-        
-        color: black;
-        background-color:white;
+        background-image: url('moon.png');
+        background-repeat: no-repeat;
+        background-size: ;
+        background-position: left;
+        background-color:black;
         font-size: 20;  
         /*font-family
         ;font-weight: 300;*/
     }
 
     .h1 {
-        color: black;
+        color: white;
         /*letter-spacing: 0.2em;*/
         margin-left: 50;
         margin-top: 10;
@@ -31,9 +33,9 @@ body {
     .menu {
         /*font-style:italic;
         max-width: 1200px;*/
-        color: black;
+        color: white;
         height: 200;
-        background-color: purple;
+        background-color: darkblue;
         /* min-width: -100px;*/
         padding: 10 10 50 500;
         list-style: none;
@@ -50,7 +52,7 @@ body {
         margin: 30 30 30 30;
         cursor: crosshair;
     /*Install border and round corners off - borders present, rounding BROKEN*/
-        border: 2 solid black;
+        border: 2 solid blue;
         border-radius: 10;
     }
 
@@ -67,6 +69,11 @@ body {
     a:visited {
         colour: purple;
     }*/
+
+    table {
+        /*padding top right bottom left - doesn't work*/
+        padding: 25 50 75 100;
+    }
 
     .main-body-text {
         color: blue;
