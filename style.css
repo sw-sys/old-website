@@ -13,7 +13,6 @@ body {
         height: 1000px; */
         background-image: url('moon.png');
         background-repeat: no-repeat;
-        background-size: ;
         background-position: left;
         background-color:black;
         font-size: 20;  
@@ -24,8 +23,7 @@ body {
     .h1 {
         color: white;
         /*letter-spacing: 0.2em;*/
-        margin-left: 50;
-        margin-top: 10;
+        margin: 10 50 0 0;
         /*Gradient property
         background-image: linear-gradient(red, lightslategray);*/
     }
@@ -81,4 +79,5 @@ body {
         margin-left: 100;
         margin-top: 50;
         line-height: 1.4;
+        padding: 20;
     }
