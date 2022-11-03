@@ -29,14 +29,13 @@ body {
     }
 
     .menu {
-        /*font-style:italic;
-        max-width: 1200px;*/
+        display: flex;
+        justify-content: center;
+        align-items: center; */ensures items are centred on button*/
         color: white;
-        height: 200;
         background-color: darkblue;
-        /* min-width: -100px;*/
-        padding: 10 10 50 500;
-        list-style: none;
+        list-style: none; /*removed bulletpoints from ul/*
+        /*padding: 10 10 50 500;*/
         /*box-shadow: 5px 10px 20px lightslategray;*/
     }
 
@@ -71,6 +70,10 @@ body {
     table {
         /*padding top right bottom left - doesn't work*/
         padding: 25 50 75 100;
+    }
+
+    img {
+        display: block;
     }
 
     .main-body-text {
