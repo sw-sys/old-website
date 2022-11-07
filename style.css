@@ -1,109 +1,83 @@
-body {
-        
-    /* Below are CSS PROPERTIES
+        /*Customising links*/
+        a {
+            color: black;
+        }
+        body {
+            
+        /* Below are CSS PROPERTIES
 
-        Should be centred background image - doesn't work
-        
-        background-image: url("https://www.ibb.co/album/6JdmSz");
-        background-position: center;*/
+            Should be centred background image - doesn't work
+            
+            background-image: url("https://www.ibb.co/album/6JdmSz");
+            background-position: center;*/
 
-       /* background gradient
+        /* background gradient
 
-       background-image: linear-gradient(red,yellow);
-        height: 1000px; */
-        background-image: url('moon.png');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size:contain;
-        background-color:black;
-        font-size: 20;  
-        /*font-family
-        ;font-weight: 300;*/
-    }
+        background-image: linear-gradient(red,yellow);
+            height: 1000px; */
+            background-image: url('moon.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size:contain;
+            background-color:black;
+            font-size: 20;  
+            /*font-family
+            ;font-weight: 300;*/
+        }
 
-    .h1 {
-        color: coral;
-        /*letter-spacing: 0.2em;*/
-        margin: 10 100 100 100;
-        padding: 100 100 100 100;
-        /*Gradient property
-        background-image: linear-gradient(red, lightslategray);*/
-    }
+        .h1 {
+            color: coral;
+            /*letter-spacing: 0.2em;*/
+            margin: 10 100 100 100;
+            padding: 100 100 100 100;
+            /*Gradient property
+            background-image: linear-gradient(red, lightslategray);*/
+        }
 
-    .menu {
-        display: flex;
-        color: white;
-        background-color: transparent;
-        list-style: none; /*removed bulletpoints from ul*/
-        justify-content: space-evenly;
-        /*padding: 10 10 50 500;*/
-        /*box-shadow: 5px 10px 20px lightslategray;*/
-    }
+        .menu {
+            display: flex;
+            color: white;
+            background-color: transparent;
+            list-style: none; /*removed bulletpoints from ul*/
+            justify-content: space-evenly;
+            /*padding: 10 10 50 500;*/
+            /*box-shadow: 5px 10px 20px lightslategray;*/
+        }
 
-    .button-style {
-        transition-duration: 0.1;
-        background-color: yellowgreen;
-        padding: 15 32 20 20;
-        text-align: center;
-        display: inline-block;
-        font-size: 16;
-        margin: 30 30 30 30;
-    /*Install border and round corners off - borders present, rounding BROKEN*/
-        border: 20px solid transparent;
-        border-radius: 10;
-    }
+        .button-style {
+            transition-duration: 0.1;
+            background-color: yellowgreen;
+            padding: 15 32 20 20;
+            text-align: center;
+            display: inline-block;
+            font-size: 16;
+            margin: 30 30 30 30;
+        /*Install border and round corners off - borders present, rounding BROKEN*/
+            border: 20px solid transparent;
+            border-radius: 10;
+        }
 
-    .button-style:hover {
-        background: white;
-    }
+        .button-style:hover {
+            background: white;
+        }
 
-    /*Customising links*/
-    a {
-        color: black;
-    }
+        table {
+            /*padding top right bottom left - doesn't work*/
+            padding: 25 50 75 100;
+        }
 
-    table {
-        /*padding top right bottom left - doesn't work*/
-        padding: 25 50 75 100;
-    }
+        img {
+            display: block;
+        }
 
-    img {
-        display: block;
-    }
-
-    .flex-container {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        align-items: flex-start;
-        color:#2c0260;
-        background-color: rgb(146, 145, 145);
-        opacity: 0.7;
-        margin: 20px;
-    }
-
-    /*.side-body-text{
-        float: left;
-        width: 25%;
-        border: 30 solid;
-        border-color: white;
-        background-color: pink;
-        color: white;
-        padding: 10px;
-        margin: 10px;
-        opacity: 75%;
-    }
-    .main-body-text {
-        float: right;
-        width: 75%;
-        color: blue;
-        line-height: 1.4;
-        border-style: solid;
-        border: 30 solid;
-        border-color: white;
-        background-color: pink;
-        padding: 50px;
-        margin: 50px;
-        opacity: 75%;
-    }/*
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            align-items: flex-start;
+            color:#2c0260;
+            background-color: rgb(146, 145, 145);
+            opacity: 0.7;
+            margin: 20px;
+        }
