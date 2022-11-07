@@ -35,7 +35,7 @@ body {
         color: white;
         background-color: transparent;
         list-style: none; /*removed bulletpoints from ul*/
-        justify-content: right;
+        justify-content: space-evenly;
         /*padding: 10 10 50 500;*/
         /*box-shadow: 5px 10px 20px lightslategray;*/
     }
