@@ -1,145 +1,129 @@
-    box-sizing: border-box;
- 
- /*Customising links*/
-    a {
-            color: black;
-         }
-        
-    body {
+body {
             
-/* Below are CSS PROPERTIES*/
-            margin: 0;
-            padding: 0;
-            background-image: url('moon.png');
-            background-repeat: no-repeat;
-            background-position-x: center;
-            background-size: auto;
-            background-color:black;
-            font-size: 20;  
-            /*font-family
-            ;font-weight: 300;*/
-        }
+    margin: 0;
+    padding: 0;
+    background-image: url('moon.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: auto;
+    background-color:black;
+    font-size: 20;  
+}
+    
+.h1 {
+    color: coral;
+    margin: 10 100 100 100;
+    padding: 100 100 100 100;
+}
 
-        .h1 {
-            color: coral;
-            /*letter-spacing: 0.2em;*/
-            margin: 10 100 100 100;
-            padding: 100 100 100 100;
-            /*Gradient property
-            background-image: linear-gradient(red, lightslategray);*/
-        }
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+    
+.brand-title {
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+    
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+    
+.navbar-links li {
+    list-style: none;   
+}
+    
+.navbar-links li a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+}
+    
+.navbar-links li:hover {
+    background-color: grey;
+    opacity: 75%;
+}
+    
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+    
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
 
-        .navbar {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background-color: black;
-            color: white;
-        }
+img {
+    display: block;
+}
 
-        .brand-title {
-            font-size: 1.5rem;
-            margin: .5rem;
-        }
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color:#2c0260;
+    background-color: rgb(146, 145, 145);
+    opacity: 0.7;
+    margin: 20px;
+}
 
-        .navbar-links ul {
-            margin: 0;
-            padding: 0;
-            display: flex;
-        }
-
-        .navbar-links li {
-            list-style: none;   
-        }
-
-        .navbar-links li a {
-            text-decoration: none;
-            color: white;
-            padding: 1rem;
-            display: block;
-        }
-
-        .navbar-links li:hover {
-            background-color: grey;
-            opacity: 75%;
-        }
-
-        .toggle-button {
-            position: absolute;
-            top: .75rem;
-            right: 1rem;
-            display: none;
-            flex-direction: column;
-            justify-content: space-between;
-            width: 30px;
-            height: 21px;
-        }
-
-        .toggle-button .bar {
-            height: 3px;
-            width: 100%;
-            background-color: white;
-            border-radius: 10px;
-        }
-
-        @media (max-width:600px) {
-            .toggle-button {
-                display: flex;
+#flex-container {
+    width: 60%;
+}
+    
+            @media (max-width:600px) {
+                .toggle-button {
+                    display: flex;
+                }
+    
+                .navbar-links {
+                    display: none;
+                    width: 100%;
+                }
+    
+                .navbar { 
+                    flex-direction: column;
+                    align-items: flex-start;
+                }
+    
+                .navbar-links ul {
+                    width: 100%;
+                    flex-direction: column;
+                }
+    
+                .navbar-links li {
+                    text-align: center;
+                }
+    
+                .navbar-links li a {
+                    padding: .5rem 1rem;
+                }
+    
+                .navbar-links.active {
+                    display: flex;
+                }
             }
 
-            .navbar-links {
-                display: none;
-                width: 100%;
-            }
+    /*Customising links*/
+ a {
+    color: black;
+ }
 
-            .navbar { 
-                flex-direction: column;
-                align-items: flex-start;
-            }
-
-            .navbar-links ul {
-                width: 100%;
-                flex-direction: column;
-            }
-
-            .navbar-links li {
-                text-align: center;
-            }
-
-            .navbar-links li a {
-                padding: .5rem 1rem;
-            }
-
-            .navbar-links.active {
-                display: flex;
-            }
-        }
-
-/* old menu attempt
-
-        .menu {
-            display: flex;
-            color: white;
-            background-color: transparent;
- /*removed bulletpoints from ul
-            list-style: none;
-            justify-content: space-evenly;
-            /*padding: 10 10 50 500;*/
-            /*box-shadow: 5px 10px 20px lightslategray;
-        }*/
-
-        img {
-            display: block;
-        }
-
-        .flex-container {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: flex-start;
-            align-items: flex-start;
-            color:#2c0260;
-            background-color: rgb(146, 145, 145);
-            opacity: 0.7;
-            margin: 20px;
-        }
