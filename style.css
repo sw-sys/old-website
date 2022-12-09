@@ -87,6 +87,8 @@ img {
 
 #flex-container {
     width: 60%;
+    margin-left: 50;
+    margin-right: 50;
 }
 /*
             @media (max-width:600px) {
