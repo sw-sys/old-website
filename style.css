@@ -82,14 +82,10 @@ img {
     color:#2c0260;
     background-color: rgb(146, 145, 145);
     opacity: 0.7;
-    margin: 20px;
+    margin: 50px;
+    width:60%
 }
 
-#flex-container {
-    width: 60%;
-    margin-left: 500;
-    margin-right: 50;
-}
 /*
             @media (max-width:600px) {
                 .toggle-button {
