@@ -82,7 +82,8 @@ img {
     color:#2c0260;
     background-color: rgb(146, 145, 145);
     opacity: 0.7;
-    margin: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
     width: 60%;
 }
 
