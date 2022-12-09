@@ -14,6 +14,7 @@ body {
     color: coral;
     margin: 10 100 100 100;
     padding: 100 100 100 100;
+    font-size: 100;
 }
 
 .navbar {
@@ -22,11 +23,6 @@ body {
     align-items: center;
     background-color: black;
     color: white;
-}
-    
-.brand-title {
-    font-size: 1.5rem;
-    margin: .5rem;
 }
     
 .navbar-links ul {
