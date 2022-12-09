@@ -88,7 +88,7 @@ img {
 #flex-container {
     width: 60%;
 }
-    
+/*
             @media (max-width:600px) {
                 .toggle-button {
                     display: flex;
