@@ -1,3 +1,5 @@
+<!-- tutorial 31m onwards https://www.youtube.com/watch?v=tzaHrMx1ncc -->
+
 <!-- header = shift + 1 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -6,19 +8,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css"> <!--links the stylesheet-->
+    <!-- name of tab -->
     <title>Sheldon Korpet</title>
 </head>
 <body>
-    <section>
-        <nav> <!--navigation to three pages -->
-            <div class="logo"></div>
+    <section class = "front-page">
+        <img class="picture" src="./assets/rivlin.JPG" alt="image of bleaklow moor">
+        <!--links to three pages -->
+        <nav> 
+            <div class="logo">
                 <img src="./assets/sheldon_200.png" alt="a picture of the moon" />
                 <h1>Sheldon</h1>
-            <div class="links"></div>
+            </div>
+            <div class="links">
             <a href="#">About me</a>
             <a href="#">Blog</a>
             <a href="#">Contact</a>
+            </div>
+
+            <!--Burger menu-->
+            <svg 
+                width="44" 
+                height="18" 
+                viewBox="0 0 44 18" 
+                fill="none" 
+                xmlns="http://www.w3.org/2000/svg"
+            >
+                <line class="line" y1="1" x2="44" y2="1" stroke="white" stroke-width="2"/>
+                <line class="line" y1="9" x2="27" y2="9" stroke="white" stroke-width="2"/>
+                <line class="line" y1="17" x2="11" y2="17" stroke="white" stroke-width="2"/>
+            </svg>
         </nav>
+        <!-- content for home page -->
         <div class="home">
             <h2>Who am I?</h2>
             <h3>A digital librarian who is interested in nature and mountain biking.</h3>
