@@ -1,48 +1,31 @@
+<!-- header = shift + 1 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"> <!--links the stylesheet-->
     <title>Sheldon Korpet</title>
-    <script src="js.main.js" defer></script>
-    <link rel="stylesheet" href="./style.css"
-    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-
 <body>
-
-    <h1>Title</h1> 
-
-    <nav class="navbar">
-        <a href="#" class="toggle-button">
-            <span class="bar1"></span>
-            <span class="bar2"></span>
-            <span class="bar3"></span>
-        </a>
-        <div class="navbar-links">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="/career.html">Career</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <div class="flex-container">
-        <section id="side-body-text"></section>
-            <p >Hello</p>
-            <p>Lorem ipsum</p>
-        </section>
-        
-        <section id="main-body-text">
-            <p >Hello, this is dog. Can I take a message?</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut imperdiet nulla vitae convallis luctus. Nunc ac posuere est, quis interdum libero. Donec gravida auctor sem.</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque sapiente at ipsum tempore exercitationem ex debitis fugiat consequatur enim officiis, nobis perferendis dolorem, ab culpa eius blanditiis explicabo hic nisi.</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam facere sapiente, excepturi quaerat temporibus quidem commodi nam. Expedita perspiciatis dolorum explicabo dolor eum quia! Expedita, alias fugiat? Animi, debitis.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum cupiditate voluptates ab, repudiandae, soluta quod accusantium vel incidunt alias, doloremque suscipit numquam id ad omnis cum voluptate quibusdam recusandae ea!</p>    
-        </section>
-    </div>
+    <section>
+        <nav> <!--navigation to three pages -->
+            <div class="logo"></div>
+                <img src="./assets/sheldon_200.png" alt="a picture of the moon" />
+                <h1>Sheldon</h1>
+            <div class="links"></div>
+            <a href="#">About me</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+        </nav>
+        <div class="home">
+            <h2>Who am I?</h2>
+            <h3>A digital librarian who is interested in nature and mountain biking.</h3>
+            <div class="cta"> <!-- call to action buttons -->
+                <button class="cta-secondary">View me on Linkedin</button>
+                <button class="cta-main">Read my blog</button>
+            </div>
+    </section>
 </body>
 </html>
