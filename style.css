@@ -13,11 +13,13 @@ body {
 
 
 body {
-    background-color: grey;
+    overflow-x: hidden;
+    background-color: rgb(172, 211, 151);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 :root{
-    --main-color: lightblue;
+    --main-color: rgb(72, 117, 48);
     --secondary-colour: #1b1b1b;
 }
 
@@ -26,7 +28,7 @@ section {
     padding: 5%;
 }
 
-/* font */
+/* FONT */
 @font-face {
     font-family: "roboto mono";
     src: url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300");
@@ -43,7 +45,7 @@ h3 {
     line-height: 125%;
 }
 
-/* nav */
+/* NAV */
 
 nav {
     display: flex;
@@ -56,10 +58,25 @@ nav svg {
 }
 
 .links {
-    display: none;
+    position: absolute;
+    background: white;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transform: translateX(30%);
 }
 
-/* header section */
+.links a {
+    color: var(--secondary-colour);
+    font-size: 2rem;
+}
+
+/* HEADER */
 .logo {
     display: flex; /* tells div to align elements horizontally */
     align-items: center;
@@ -80,7 +97,7 @@ nav svg {
     color: white;
 }
 
-/* background image */
+/* BKGD IMG */
 .picture {
     position: absolute;
     left: 0;
@@ -89,11 +106,14 @@ nav svg {
     height: 100vh;
     object-fit: cover;
     z-index: -1;
-    opacity: 50%;
+    opacity: 80%
 }
 
 /* homepage content formatting*/
 .home {
+    background-color: grey;
+    opacity: 90%;
+    border-radius: 1rem;
     margin-top: 25vh;
     font-family: "roboto mono", sans-serif;
     text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.49); /* something - down - blur - color*/
@@ -122,11 +142,56 @@ nav svg {
 
 .cta-main {
     background-color: var(--main-color);
-    color: var(--secondary-colour);
-
+    color: white;
 }
 
 .cta-secondary {
     background-color: var(--secondary-colour);
     color: white;
+}
+
+/* BLOG */
+
+.blog {
+    color: var(--secondary-colour);
+    padding-top: -7rem;
+}
+
+.blog h2 {
+    font-family: "roboto mono", sans-serif;
+    text-align: center;
+}
+
+/* CONTACTS */
+
+.contact {
+    color: var(--secondary-colour);
+    text-align: center;
+    font-family: "roboto mono", sans-serif;
+    margin-top: -10rem;
+}
+
+.contact-description {
+    padding: 5%;
+}
+
+.contact-methods {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-evenly;
+}
+
+.linkedin,
+.github,
+.ebird,
+.strava,
+.email {
+    position: relative;
+}
+
+.contact-methods h3 {
+    position: relative;
+    color: black;
+    text-shadow: 0px 2px 12px rgba(0, 0, 0, 0.2);
+    font-size: 1rem;
 }
